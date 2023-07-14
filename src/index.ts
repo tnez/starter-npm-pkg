@@ -6,5 +6,5 @@
  * @returns The number `42`.
  */
 export function thing(): number {
-	return 42;
+  return 42;
 }
