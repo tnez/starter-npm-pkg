@@ -1,6 +1,6 @@
-lockfileVersion: '6.0'
+lockfileVersion: "6.0"
 
 dependencies:
-  '@tnezdev/package-name':
+  "@tnezdev/package-name":
     specifier: link:../..
     version: link:../..

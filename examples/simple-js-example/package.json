@@ -1,5 +1,5 @@
 {
-  "name": "demo-example",
+  "name": "simple-js-example",
   "version": "1.0.0",
   "description": "This is a demo of how to setup examples within your library repository and use an alias to refer to your source rather than a published version.",
   "scripts": {},
