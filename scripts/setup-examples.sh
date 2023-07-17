@@ -7,6 +7,7 @@ pnpm build
 ROOT_DIR=$(pwd)
 # Change to the examples directory
 cd "$ROOT_DIR"/examples || exit
+
 # Loop through each sub-directory
 for dir in */; do
 	# Remove the trailing slash from the directory name
@@ -20,6 +21,9 @@ for dir in */; do
 	echo "---"
 	# Run pnpm install
 	pnpm install
-	# Change back to the root directory
-	cd "$ROOT_DIR" || exit
+	# Change back to the $ROOT_DIR/examples directory
+	cd "$ROOT_DIR"/examples || exit
 done
+
+# Change back to the root directory
+cd "$ROOT_DIR" || exit
