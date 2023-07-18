@@ -3,9 +3,10 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchDevDependencies": true,
+      "matchDepTypes": ["devDependencies"],
       "groupName": "devDependencies",
-      "automerge": true
+      "automerge": true,
+      "automergeSchedule": ["before 4am on Monday"]
     }
   ]
 }
