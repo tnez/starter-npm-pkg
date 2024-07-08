@@ -47,11 +47,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "2.27.6",
+    "@changesets/cli": "2.27.7",
     "@edge-runtime/jest-environment": "2.3.10",
     "@edge-runtime/types": "2.2.9",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.9",
+    "@types/node": "20.14.10",
     "@vercel/style-guide": "6.0.0",
     "eslint": "8.57.0",
     "husky": "9.0.11",
@@ -62,7 +62,7 @@
     "publint": "0.2.8",
     "ts-jest": "29.1.5",
     "tsup": "8.1.0",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
