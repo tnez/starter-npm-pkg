@@ -59,7 +59,7 @@
     "jest-mock-extended": "3.0.7",
     "lint-staged": "15.4.3",
     "prettier": "3.5.3",
-    "publint": "0.3.8",
+    "publint": "0.3.9",
     "ts-jest": "29.2.6",
     "tsup": "8.4.0",
     "typescript": "5.8.2"
