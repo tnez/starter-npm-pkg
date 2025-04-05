@@ -51,7 +51,7 @@
     "@edge-runtime/jest-environment": "2.3.10",
     "@edge-runtime/types": "2.2.9",
     "@types/jest": "29.5.14",
-    "@types/node": "20.17.28",
+    "@types/node": "20.17.30",
     "@vercel/style-guide": "6.0.0",
     "eslint": "8.57.1",
     "husky": "9.1.7",
@@ -59,10 +59,10 @@
     "jest-mock-extended": "3.0.7",
     "lint-staged": "15.5.0",
     "prettier": "3.5.3",
-    "publint": "0.3.9",
-    "ts-jest": "29.3.0",
+    "publint": "0.3.10",
+    "ts-jest": "29.3.1",
     "tsup": "8.4.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
