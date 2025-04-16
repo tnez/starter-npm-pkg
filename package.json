@@ -47,7 +47,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "2.28.1",
+    "@changesets/cli": "2.29.2",
     "@edge-runtime/jest-environment": "2.3.10",
     "@edge-runtime/types": "2.2.9",
     "@types/jest": "29.5.14",
@@ -59,7 +59,7 @@
     "jest-mock-extended": "3.0.7",
     "lint-staged": "15.5.1",
     "prettier": "3.5.3",
-    "publint": "0.3.11",
+    "publint": "0.3.12",
     "ts-jest": "29.3.2",
     "tsup": "8.4.0",
     "typescript": "5.8.3"
