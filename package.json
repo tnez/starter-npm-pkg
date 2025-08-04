@@ -60,9 +60,9 @@
     "lint-staged": "15.5.2",
     "prettier": "3.6.2",
     "publint": "0.3.12",
-    "ts-jest": "29.4.0",
+    "ts-jest": "29.4.1",
     "tsup": "8.5.0",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
