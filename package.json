@@ -47,11 +47,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "2.29.5",
+    "@changesets/cli": "2.29.6",
     "@edge-runtime/jest-environment": "2.3.10",
     "@edge-runtime/types": "2.2.9",
     "@types/jest": "29.5.14",
-    "@types/node": "20.19.10",
+    "@types/node": "20.19.11",
     "@vercel/style-guide": "6.0.0",
     "eslint": "8.57.1",
     "husky": "9.1.7",
