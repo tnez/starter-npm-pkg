@@ -22,7 +22,7 @@ devDependencies:
     version: 20.19.25
   '@vercel/style-guide':
     specifier: 6.0.0
-    version: 6.0.0(eslint@8.57.1)(jest@29.7.0)(prettier@3.7.3)(typescript@5.9.3)
+    version: 6.0.0(eslint@8.57.1)(jest@29.7.0)(prettier@3.7.4)(typescript@5.9.3)
   eslint:
     specifier: 8.57.1
     version: 8.57.1
@@ -39,14 +39,14 @@ devDependencies:
     specifier: 15.5.2
     version: 15.5.2
   prettier:
-    specifier: 3.7.3
-    version: 3.7.3
+    specifier: 3.7.4
+    version: 3.7.4
   publint:
     specifier: 0.3.15
     version: 0.3.15
   ts-jest:
-    specifier: 29.4.5
-    version: 29.4.5(@babel/core@7.23.7)(esbuild@0.27.0)(jest@29.7.0)(typescript@5.9.3)
+    specifier: 29.4.6
+    version: 29.4.6(@babel/core@7.23.7)(esbuild@0.27.0)(jest@29.7.0)(typescript@5.9.3)
   tsup:
     specifier: 8.5.1
     version: 8.5.1(typescript@5.9.3)
@@ -1700,7 +1700,7 @@ packages:
       graphemer: 1.4.0
       ignore: 5.2.4
       natural-compare: 1.4.0
-      semver: 7.7.2
+      semver: 7.7.3
       ts-api-utils: 1.0.3(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -1876,7 +1876,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vercel/style-guide@6.0.0(eslint@8.57.1)(jest@29.7.0)(prettier@3.7.3)(typescript@5.9.3):
+  /@vercel/style-guide@6.0.0(eslint@8.57.1)(jest@29.7.0)(prettier@3.7.4)(typescript@5.9.3):
     resolution: {integrity: sha512-tu0wFINGz91EPwaT5VjSqUwbvCY9pvLach7SPG4XyfJKPU9Vku2TFa6+AyzJ4oroGbo9fK+TQhIFHrnFl0nCdg==}
     engines: {node: '>=18.18'}
     peerDependencies:
@@ -1914,8 +1914,8 @@ packages:
       eslint-plugin-tsdoc: 0.2.17
       eslint-plugin-unicorn: 51.0.1(eslint@8.57.1)
       eslint-plugin-vitest: 0.3.24(@typescript-eslint/eslint-plugin@7.1.1)(eslint@8.57.1)(typescript@5.9.3)
-      prettier: 3.7.3
-      prettier-plugin-packagejson: 2.4.12(prettier@3.7.3)
+      prettier: 3.7.4
+      prettier-plugin-packagejson: 2.4.12(prettier@3.7.4)
       typescript: 5.9.3
     transitivePeerDependencies:
       - eslint-import-resolver-node
@@ -3270,7 +3270,7 @@ packages:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
       regjsparser: 0.10.0
-      semver: 7.7.2
+      semver: 7.7.3
       strip-indent: 3.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5467,7 +5467,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-packagejson@2.4.12(prettier@3.7.3):
+  /prettier-plugin-packagejson@2.4.12(prettier@3.7.4):
     resolution: {integrity: sha512-hifuuOgw5rHHTdouw9VrhT8+Nd7UwxtL1qco8dUfd4XUFQL6ia3xyjSxhPQTsGnSYFraTWy5Omb+MZm/OWDTpQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -5475,7 +5475,7 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 3.7.3
+      prettier: 3.7.4
       sort-package-json: 2.8.0
       synckit: 0.9.0
     dev: true
@@ -5486,8 +5486,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.7.3:
-    resolution: {integrity: sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==}
+  /prettier@3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -5801,12 +5801,6 @@ packages:
 
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-    dev: true
-
-  /semver@7.7.2:
-    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
-    engines: {node: '>=10'}
     hasBin: true
     dev: true
 
@@ -6246,8 +6240,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-jest@29.4.5(@babel/core@7.23.7)(esbuild@0.27.0)(jest@29.7.0)(typescript@5.9.3):
-    resolution: {integrity: sha512-HO3GyiWn2qvTQA4kTgjDcXiMwYQt68a1Y8+JuLRVpdIzm+UOLSHgl/XqR4c6nzJkq5rOkjc02O2I7P7l/Yof0Q==}
+  /ts-jest@29.4.6(@babel/core@7.23.7)(esbuild@0.27.0)(jest@29.7.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-fSpWtOO/1AjSNQguk43hb/JCo16oJDnMJf3CdEGNkqsEX3t0KX96xvyX1D7PfLCpVoKu4MfVrqUkFyblYoY4lA==}
     engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
